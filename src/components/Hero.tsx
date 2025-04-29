@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Code, Database } from 'lucide-react';
+import sunnyImage from "./sunny.jpg";
 
 const Hero = () => {
   return (
@@ -55,7 +56,8 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg animate-float">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-purple-300/50"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-7xl font-bold text-white">AK</span>
+                {/* <span className="text-7xl font-bold text-white">AK</span> */}
+                <img src={sunnyImage} alt='sunny'/>
               </div>
             </div>
           </div>
