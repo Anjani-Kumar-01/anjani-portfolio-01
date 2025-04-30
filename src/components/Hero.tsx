@@ -9,7 +9,7 @@ const Hero = () => {
     
     <section id="home" className="min-h-screen flex items-center relative overflow-hidden pt-16">
       {/* Background elements */}
-        <div className='flex flex-col items-center  mt-10 mb-5 relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden'>
+        <div className='flex flex-col items-center  mt-10 mb-5 w-full md:w-5  justify-center'>
       <div className="w-full md:w-5 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg animate-float">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-purple-300/50"></div>
