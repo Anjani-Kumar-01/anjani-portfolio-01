@@ -83,7 +83,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button asChild className="w-full bg-primary hover:bg-primary/90">
-              <a href="#contact" onClick={() => setIsMenuOpen(false)}>Get in Touch</a>
+              <a href="https://drive.google.com/file/d/1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo/view?usp=drivesdk" onClick={() => setIsMenuOpen(false)}>Resume</a>
             </Button>
           </nav>
         </div>
