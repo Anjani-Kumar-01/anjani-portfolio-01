@@ -70,15 +70,15 @@ const Contact = () => {
               <ContactInfo 
                 icon={<Mail size={20} />} 
                 title="Email" 
-                value="anjani.kumar@example.com" 
-                href="mailto:anjani.kumar@example.com"
+                value="anjanikumar70157@gmail.com" 
+                href="mailto:anjanikumar70157@gmail.com"
               />
               
               <ContactInfo 
                 icon={<Linkedin size={20} />} 
                 title="LinkedIn" 
-                value="anjani-kumar" 
-                href="https://linkedin.com/in/anjani-kumar"
+                value="Anjani-kumar" 
+                href="https://www.linkedin.com/in/anjani-kumar-683ba725a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               />
               
               <ContactInfo 

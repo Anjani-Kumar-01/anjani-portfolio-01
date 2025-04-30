@@ -40,7 +40,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold text-primary">AK</a>
+        <a href="#home" className="text-2xl font-bold text-primary">Anjani Kumar</a>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-2">
@@ -54,7 +54,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button asChild className="ml-4 bg-primary hover:bg-primary/90">
-            <a href="#contact">Get in Touch</a>
+            <a href="https://drive.google.com/file/d/1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo/view?usp=drivesdk">Resume</a>
           </Button>
         </nav>
         

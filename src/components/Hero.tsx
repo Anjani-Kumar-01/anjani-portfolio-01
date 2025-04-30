@@ -9,8 +9,8 @@ const Hero = () => {
     
     <section id="home" className="min-h-screen flex items-center relative overflow-hidden pt-16">
       {/* Background elements */}
-        <div className='flex flex-col items-center  mt-10 mb-5 mx-auto'>
-      <div className="w-full md:w-5 flex justify-center">
+        <div className='flex flex-col md:flex-row-reverse items-center  mt-10 mb-5 gap-0'>
+      <div className="w-full  md:w-auto flex items-center justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg animate-float">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-purple-300/50"></div>
               <div className="absolute inset-0 flex items-center justify-center">
@@ -19,13 +19,13 @@ const Hero = () => {
               </div>
             </div>
           </div>
-      <div className="absolute inset-0 -z-10 overflow-hidden">
+      {/* <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="animated-gradient absolute top-[-20%] right-[-10%] w-[40%] h-[60%] rounded-full opacity-20 blur-3xl"></div>
         <div className="animated-gradient absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full opacity-20 blur-3xl"></div>
-      </div>
+      </div> */}
       
       <div className="container mx-auto px-4 pt-10">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-1 ml-10">
           <div className="w-full md:w-3/5 animate-fade-in">
             <p className="text-primary font-medium mb-2">Hello, I'm</p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
