@@ -63,8 +63,8 @@ const Contact = () => {
               <ContactInfo 
                 icon={<Phone size={20} />} 
                 title="Phone" 
-                value="+91 9876543210" 
-                href="tel:+919876543210"
+                value="+91 7782023544" 
+                href="tel:+917782023544"
               />
               
               <ContactInfo 
@@ -84,20 +84,20 @@ const Contact = () => {
               <ContactInfo 
                 icon={<Github size={20} />} 
                 title="GitHub" 
-                value="anjani-kumar" 
-                href="https://github.com/anjani-kumar"
+                value="anjani-kumar-01" 
+                href="https://github.com/anjani-kumar-01"
               />
               
               <ContactInfo 
                 icon={<MapPin size={20} />} 
                 title="Location" 
-                value="Greater Noida, Uttar Pradesh, India"
+                value="Noida, Uttar Pradesh, India"
               />
             </div>
             
             <div className="mt-8">
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                <a href="mailto:anjani.kumar@example.com">Send Email</a>
+                <a href="mailto:anjanikumar70157@gmail.com">Send Email</a>
               </Button>
             </div>
           </Card>

@@ -42,7 +42,7 @@ const About = () => {
                   <p className="text-gray-700">IIMT College of Engineering, Greater Noida</p>
                   <p className="text-gray-500">2022 - 2026</p>
                   <p className="text-gray-600 mt-2">
-                    <span className="font-medium">CGPA:</span> 8.5/10
+                    <span className="font-medium">CGPA:</span> 8/10
                   </p>
                 </div>
                 
@@ -61,7 +61,7 @@ const About = () => {
           </Card>
         </div>
         
-        <div className="mt-12 bg-white rounded-lg p-6 border shadow-sm">
+        {/* <div className="mt-12 bg-white rounded-lg p-6 border shadow-sm">
           <h3 className="text-xl font-bold text-gray-800 mb-4">Personal Details</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
@@ -81,7 +81,7 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
