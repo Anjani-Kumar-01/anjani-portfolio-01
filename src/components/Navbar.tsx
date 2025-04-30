@@ -54,7 +54,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button asChild className="ml-4 bg-primary hover:bg-primary/90">
-            <a href="https://drive.google.com/file/d/1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo/view?usp=drivesdk">Resume</a>
+            <a href="https://drive.usercontent.google.com/download?id=1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo&export=download&authuser=0">Resume</a>
           </Button>
         </nav>
         
@@ -83,7 +83,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button asChild className="w-full bg-primary hover:bg-primary/90">
-              <a href="https://drive.google.com/file/d/1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo/view?usp=drivesdk" onClick={() => setIsMenuOpen(false)}>Resume</a>
+              <a href="https://drive.usercontent.google.com/download?id=1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo&export=download&authuser=0" onClick={() => setIsMenuOpen(false)}>Resume</a>
             </Button>
           </nav>
         </div>
