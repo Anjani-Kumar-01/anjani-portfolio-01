@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="animated-gradient absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full opacity-20 blur-3xl"></div>
       </div> */}
       
-      <div className="container mx-auto px-4 pt-10">
+      <div className="container mx-auto px-0 pt-10 items-center">
         <div className="flex flex-col md:flex-row items-center justify-between gap-1 ml-10">
           <div className="w-full md:w-3/5 animate-fade-in">
             <p className="text-primary font-medium mb-2">Hello, I'm</p>
