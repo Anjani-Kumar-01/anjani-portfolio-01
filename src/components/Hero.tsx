@@ -53,7 +53,7 @@ const Hero = () => {
             
             <div className="flex flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-              <a href="#contact">Get in Touch</a>
+              <a href="https://drive.usercontent.google.com/download?id=1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo&export=download&authuser=0">Get Resume</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
                
