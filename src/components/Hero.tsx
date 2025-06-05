@@ -53,7 +53,7 @@ const Hero = () => {
             
             <div className="flex flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-              <a href="https://drive.usercontent.google.com/download?id=1a8aSE_4vZAMNEVzx6_lXqDvqxEdeqSNo&export=download&authuser=0">Get Resume</a>
+              <a href="https://drive.usercontent.google.com/download?id=12de9oLGndmSaRIJ7Qvv_-2c2TQYAyCns&export=download&authuser=0&confirm=t&uuid=e6f674af-a8e4-4158-94b8-c418e4851416&at=ALoNOgmRt6sa4mUk7icl3jpBPA7m:1749123798937">Get Resume</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
                
