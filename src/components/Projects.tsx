@@ -4,7 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from '@/components/ui/button';
 import { ArrowUpRight, GithubIcon } from 'lucide-react';
-
+import tutorimg from "./Tutormatch.png";
+import studentimg from "./studynation.png";
 interface ProjectProps {
   title: string;
   description: string;
@@ -68,6 +69,7 @@ const Projects = () => {
   const projects: ProjectProps[] = [
     {
       title: "MyTutorMatch",
+      image:tutorimg,
       description: "A platform that connects students with qualified tutors based on subject requirements. Implemented user authentication, profile management, and a real-time messaging system.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
       githubUrl: "https://github.com/Anjani-Kumar-01/Mytutormatch.",
@@ -75,6 +77,7 @@ const Projects = () => {
     },
     {
       title: "Study Nation",
+      image:studentimg,
       description: "An e-learning platform that offers courses and study materials for students. Includes features such as interactive quizzes, progress tracking, and certificate generation.",
       technologies: [ "React.js", "TypeScript", "Node.js", "MongoDB", "TailwindCSS"],
       githubUrl: "https://github.com/Anjani-Kumar-01/StudyNation",
