@@ -76,9 +76,9 @@ const Projects = () => {
     {
       title: "Study Nation",
       description: "An e-learning platform that offers courses and study materials for students. Includes features such as interactive quizzes, progress tracking, and certificate generation.",
-      technologies: [ "TypeScript", "Node.js", "MongoDB", "TailwindCSS"],
+      technologies: [ "React.js", "TypeScript", "Node.js", "MongoDB", "TailwindCSS"],
       githubUrl: "https://github.com/Anjani-Kumar-01/StudyNation",
-      liveUrl: "#"
+    
     }
   ];
 
