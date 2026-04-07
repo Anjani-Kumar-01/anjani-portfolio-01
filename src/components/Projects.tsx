@@ -70,14 +70,14 @@ const Projects = () => {
       title: "MyTutorMatch",
       description: "A platform that connects students with qualified tutors based on subject requirements. Implemented user authentication, profile management, and a real-time messaging system.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
-      githubUrl: "#",
-      liveUrl: "https://www.mytutormatch.site/"
+      githubUrl: "https://github.com/Anjani-Kumar-01/Mytutormatch.",
+      liveUrl: "https://mytutormatch-aman-singhs-projects-d3afdf8d.vercel.app/https://www.mytutormatch.site/"
     },
     {
       title: "Study Nation",
       description: "An e-learning platform that offers courses and study materials for students. Includes features such as interactive quizzes, progress tracking, and certificate generation.",
       technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "TailwindCSS"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/Anjani-Kumar-01/StudyNation",
       liveUrl: "#"
     }
   ];
